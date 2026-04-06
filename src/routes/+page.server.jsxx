@@ -1,0 +1,13 @@
+// src/routes/demo/+page.server.js
+export const actions = {
+    capture: async ({ request }) => {
+        const data = await request.json();
+        const { code, timestamp } = data;
+        
+        console.log(`⏰ Time: ${timestamp}`);
+        
+        // Optional: Write to file
+        
+        return { success: true };
+    }
+};

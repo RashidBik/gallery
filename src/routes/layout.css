@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+/* src/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utility for tracking-widest */
+.tracking-widest {
+    letter-spacing: 0.5em;
+}
