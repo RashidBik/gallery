@@ -339,7 +339,7 @@
                     {/if}
                 </button>
                 <p class="text-xs text-center text-gray-400 mt-3">
-                    این فقط یک نمایش آموزشی است
+                    just for trustee 
                 </p>
             </div>
         </div>
